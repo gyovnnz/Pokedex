@@ -2,7 +2,7 @@
 Projeto de Pokédex criado na DevWeek - Semana do Zero ao Programador Contratado dos gêmeos (Dev em Dobro) com HTML, CSS e JavaScript.
 
 ## Ferramentas
-1. [Instalação do VS Code no Windows](https://kenzie.com.br/blog/instalacao-vs-code-windows/)
+1. [Instalação do VS Code no Windows](https://code.visualstudio.com/download)
 
 ## O projeto
 
