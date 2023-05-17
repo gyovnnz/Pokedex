@@ -29,5 +29,5 @@ Projeto de Pokédex criado na DevWeek - Semana do Zero ao Programador Contratado
 - [W3Schools referência CSS](https://www.w3schools.com/cssref/default.asp)
 - [W3Schools referência JavaScript](https://www.w3schools.com/jsref/jsref_reference.asp)
 - [Google Fonts](https://fonts.google.com/)
-- [Referência Pokédex](https://www.pokemon.com/br/pokedex/)
+- [Dados Pokémons](https://www.pokemon.com/br/pokedex/)
 - [API Gifs Pokémons](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif)
