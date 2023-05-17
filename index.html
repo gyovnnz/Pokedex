@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Pokédex</title>
+		
+		<link rel="icon" href="./src/imagens/pokeball0.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet"/>
+
+		<link rel="stylesheet" href="./src/css/reset.css">
+		<link rel="stylesheet" href="./src/css/styles.css">
+		<link rel="stylesheet" href="./src/css/scrollbar.css">
+	</head>
+
+	<body>
+		<header>
+			<a href="#">
+				<img src="./src/imagens/icon.png" alt="pokemon" class="logo"/>
+			</a>
+			<button id="botao-alterar-tema">
+				<img src="./src/imagens/sun.png" alt="sol" class="imagem-botao"/>
+			</button>
+		</header>
+
+		<main>
+			<ul class="listagem-pokemon">
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Bulbasaur</span>
+						<span>#001</span>
+					</div>
+
+					<img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo grama">Grama</li>
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+
+					<p class="descricao">Há uma semente de planta em suas costas desde o dia que este Pókemon nasce. A semente cresce lentamente.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Ivysaur</span>
+						<span>#002</span>
+					</div>
+
+					<img src="./src/imagens/ivysaur.gif" alt="Ivysaur" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo grama">Grama</li>
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+
+					<p class="descricao">Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar de pé em suas patas traseiras.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Venusaur</span>
+						<span>#003</span>
+					</div>
+
+					<img src="./src/imagens/venusaur.gif" alt="Venusaur" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo grama">Grama</li>
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+
+					<p class="descricao">Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz solar.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Charmander</span>
+						<span>#004</span>
+					</div>
+
+					<img src="./src/imagens/charmander.gif" alt="Charmander" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo fogo">Fogo</li>
+					</ul>
+
+					<p class="descricao">Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta de sua cauda.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Charmeleon</span>
+						<span>#005</span>
+					</div>
+
+					<img src="./src/imagens/charmeleon.gif" alt="Charmeleon" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo fogo">Fogo</li>
+					</ul>
+
+					<p class="descricao">Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda ardente e corta com garras afiadas.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Charizard</span>
+						<span>#006</span>
+					</div>
+
+					<img src="./src/imagens/charizard.gif" alt="Charizard" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo fogo">Fogo</li>
+					</ul>
+
+					<p class="descricao">Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Squirtle</span>
+						<span>#007</span>
+					</div>
+
+					<img src="./src/imagens/squirtle.gif" alt="Squirtle" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo agua">Água</li>
+					</ul>
+
+					<p class="descricao">Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força vigorosa.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Wartortle</span>
+						<span>#008</span>
+					</div>
+
+					<img src="./src/imagens/wartortle.gif" alt="Wartortle" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo agua">Água</li>
+					</ul>
+
+					<p class="descricao">É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse Wartortle é muito antigo.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Blastoise</span>
+						<span>#009</span>
+					</div>
+
+					<img src="./src/imagens/blastoise.gif" alt="Blastoise" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo agua">Água</li>
+					</ul>
+
+					<p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Caterpie</span>
+						<span>#010</span>
+					</div>
+
+					<img src="./src/imagens/caterpie.gif" alt="Caterpie" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo inseto">Inseto</li>
+					</ul>
+
+					<p class="descricao">Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os inimigos.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Metapod</span>
+						<span>#011</span>
+					</div>
+
+					<img src="./src/imagens/metapod.gif" alt="Metapod" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo inseto">Inseto</li>
+					</ul>
+
+					<p class="descricao">Está esperando o momento de evoluir. Nesta fase, só pode endurecer, por isso permanece imóvel para evitar o ataque.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Butterfree</span>
+						<span>#012</span>
+					</div>
+
+					<img src="./src/imagens/butterfree.gif" alt="Butterfree" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo inseto">Inseto</li>
+						<li class="tipo voador">Voador</li>
+					</ul>
+
+					<p class="descricao">Em batalha, ele bate as asas em grande velocidade para liberar poeira altamente tóxica no ar.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Weedle</span>
+						<span>#013</span>
+					</div>
+
+					<img src="./src/imagens/weedle.gif" alt="Weedle" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo inseto">Inseto</li>
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+
+					<p class="descricao">Cuidado com o ferrão afiado em sua cabeça. Ele se esconde na grama e nos arbustos onde come folhas.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Kakuna</span>
+						<span>#014</span>
+					</div>
+
+					<img src="./src/imagens/kakuna.gif" alt="Kakuna" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo inseto">Inseto</li>
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+
+					<p class="descricao">Capaz de se mover apenas ligeiramente. Quando em perigo, pode mostrar seu ferrão e envenenar seu inimigo.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Beedrill</span>
+						<span>#015</span>
+					</div>
+
+					<img src="./src/imagens/beedrill.gif" alt="Beedrill" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo inseto">Inseto</li>
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+
+					<p class="descricao">Tem três ferrões venenosos nas patas dianteiras e na cauda. Eles são usados para espetar seu inimigo repetidamente.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Machop</span>
+						<span>#016</span>
+					</div>
+
+					<img src="./src/imagens/machop.gif" alt="Machop" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo combate">Combate</li>
+					</ul>
+
+					<p class="descricao">Todo o seu corpo é composto por músculos. Mesmo sendo do tamanho de uma criança humana, pode arremessar 100 adultos./p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Machoke</span>
+						<span>#017</span>
+					</div>
+
+					<img src="./src/imagens/machoke.gif" alt="Machoke" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo combate">Combate</li>
+					</ul>
+
+					<p class="descricao">Seu corpo musculoso é tão poderoso que deve usar um cinto de economia de energia para poder regular seus movimentos.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Machamp</span>
+						<span>#018</span>
+					</div>
+
+					<img src="./src/imagens/machamp.gif" alt="Machamp" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo combate">Combate</li>
+					</ul>
+
+					<p class="descricao">Ele balança rapidamente seus quatro braços para balançar seus oponentes com socos e golpes incessantes de todos os ângulos.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Slowpoke</span>
+						<span>#019</span>
+					</div>
+
+					<img src="./src/imagens/slowpoke.gif" alt="Slowpoke" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo agua">Água</li>
+						<li class="tipo psiquico">Psíquico</li>
+					</ul>
+
+					<p class="descricao">É incrivelmente lento e idiota. Leva cinco segundos para sentir dor quando está sob ataque.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Slowbro</span>
+						<span>#020</span>
+					</div>
+
+					<img src="./src/imagens/slowbro.gif" alt="Slowbro" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo agua">Água</li>
+						<li class="tipo psiquico">Psíquico</li>
+					</ul>
+
+					<p class="descricao">Quando um Slowpoke foi caçar no mar, seu rabo foi mordido por um Shellder. Isso o fez evoluir para Slowbro.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Gastly</span>
+						<span>#021</span>
+					</div>
+
+					<img src="./src/imagens/gastly.gif" alt="Gastly" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo fantasma">Fantasma</li>
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+
+					<p class="descricao">Ele envolve seu oponente em seu corpo gasoso, enfraquecendo lentamente sua presa ao envenená-la através da pele.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Haunter</span>
+						<span>#022</span>
+					</div>
+
+					<img src="./src/imagens/haunter.gif" alt="Haunter" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo fantasma">Fantasma</li>
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+
+					<p class="descricao">Ele gosta de se esconder no escuro e bater nos ombros com uma mão gasosa. Seu toque causa estremecimento sem fim.</p>
+				</li>
+
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Gengar</span>
+						<span>#023</span>
+					</div>
+
+					<img src="./src/imagens/gengar.gif" alt="Gengar" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo fantasma">Fantasma</li>
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+
+					<p class="descricao">Para roubar a vida de seu alvo, ele se esconde na sombra da presa e silenciosamente espera por uma oportunidade.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Onix</span>
+						<span>#024</span>
+					</div>
+
+					<img src="./src/imagens/onix.gif" alt="Onix" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo pedra">Pedra</li>
+						<li class="tipo terra">Terra</li>
+					</ul>
+
+					<p class="descricao">À medida que escava o solo, absorve muitos objetos duros. É isso que torna seu corpo tão sólido.</p>
+				</li>
+
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Steelix</span>
+						<span>#025</span>
+					</div>
+
+					<img src="./src/imagens/steelix.gif" alt="Steelix" class="gif"/>
+
+					<ul class="tipos">
+						<li class="tipo ferro">Ferro</li>
+						<li class="tipo terra">Terra</li>
+					</ul>
+
+					<p class="descricao">Dizem que se um Onix vive mais de 100 anos, sua composição muda para ficar parecida com um diamante.</p>
+				</li>
+			</ul>
+		</main>
+
+		<script src="./src/js/index.js"></script>
+
+	</body>
+</html>
